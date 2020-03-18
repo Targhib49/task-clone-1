@@ -1,0 +1,90 @@
+nav{
+    background-color: rgba(255, 255, 255, 0.267);
+}
+
+nav:hover{
+    background-color: rgba(255, 255, 255, 0.774);
+}
+
+.carousel .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+  }
+
+.first-container{
+    height: 500px;
+}
+
+.container .btn {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    color: rgb(32, 31, 31);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .centered {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .my-center{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .my-center a{
+      color: white;
+  }
+
+#shipping-logo{
+    margin-right: 1.5em;
+    background-image: url(../images/image-22.png);
+    background-size: 50px 50px;
+    background-position: top;
+    height: 50px;
+    width: 50px;
+}
+
+  .service-column{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-right: 1px solid black;
+  }
+
+  .test{
+      background-color: rgba(190, 189, 189, 0.137);
+  }
+
+  .foot{
+      background-color: rgba(151, 145, 145, 0.877);
+      color: white;
+  }
+
+  .second-foot{
+      background-color: rgba(48, 45, 45, 0.89);
+      color: white;
+  }
